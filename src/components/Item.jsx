@@ -4,11 +4,11 @@ import Card from 'react-bootstrap/Card';
 
 
 export const Item = ({item}) => {
-    // console.log (item)
+   
 
     return(
           <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={item.pictureUrl} />
+            <Card.Img variant="top" src={item.pictureId} />
             <Card.Body>
               <Card.Title>{item.tittle}</Card.Title>
               <Card.Text>
