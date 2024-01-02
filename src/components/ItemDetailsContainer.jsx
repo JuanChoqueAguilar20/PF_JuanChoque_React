@@ -13,7 +13,6 @@ export const ItemDetailsContainer = () => {
 
     const { onAdd } = useContext(CartContext)
 
-
     useEffect (() => {
         const db = getFirestore();
 
