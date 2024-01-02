@@ -1,14 +1,10 @@
 import {BrowserRouter, Routes, Route} from "react-router-dom"
-
 import { NavBar } from "./components/NavBar"
 import { ItemListContainer } from "./components/ItemListContainer.jsx"
 import { ItemDetailsContainer } from "./components/ItemDetailsContainer.jsx"
 import { Cart } from "./components/Cart.jsx"
-
 import "./App.css"
-
 import { CartProvider } from  "./contexts/CartContext.jsx"
-
 
 function App() {
   return (
@@ -26,7 +22,6 @@ function App() {
     </CartProvider>
 
   )
-  
 }
 
 export default App
